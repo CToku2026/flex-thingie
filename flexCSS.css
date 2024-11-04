@@ -1,0 +1,72 @@
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+.flex-wrap > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 25px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-sticky {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+  text-align: center;
+}
+
+.flex-nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: yellow;
+}
+
+.flex-nowrap > div {
+  background-color: #f1f1f1;
+  height: 300px;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  line-height: 300px;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: red;
+}
+
+.flex-center > div {
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+}
+
+.flex-stretch {
+  display: flex;
+  align-items: stretch;
+  background-color: red;
+}
+
+.flex-stretch > div {
+  background-color: white;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
